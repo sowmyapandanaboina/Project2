@@ -6,14 +6,6 @@
  * Detailed information about configuring a multi-project build in Gradle can be found
  * in the user guide at https://docs.gradle.org/4.6/userguide/multi_project_builds.html
  */
- buildscript {
-  repositories {
-    gradlePluginPortal()
-  }
-
-  dependencies {
-    classpath "com.github.node-gradle:gradle-node-plugin:3.1.1"
-  }
-}
+  
 
 rootProject.name = 'cicd-pipeline-train-schedule-jenkins'
